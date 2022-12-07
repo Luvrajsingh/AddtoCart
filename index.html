@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AddtoCart.css">
+    <script type="text/javascript" src="AddtoCart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id = "item1"> 
+            <img src="Rose.jpg">
+            <div class="title"> Rose</div>
+            <div>
+                <label Size :></label>
+                <select>
+                    <option >S</option>
+                    <option >L</option>
+                </select>
+            </div>
+            <button onclick = "addToCart(item1)">Add to Cart</button>
+
+        </div>
+        <div class="card" id = "item2"> 
+            <img src="sunflower.jpg">
+            <div class="title">Sunflower</div>
+            <div>
+                <label Size :></label>
+                <select>
+                    <option >S</option>
+                    <option >L</option>
+                </select>
+            </div>
+            <button onclick = "addToCart(item2)">Add to Cart</button>
+
+        </div>
+    </div>
+<div class="cart" id="cart">
+    <div class="title">CART</div><hr/>
+    <div id="title"></div>
+</div>
+</body>
+</html>
